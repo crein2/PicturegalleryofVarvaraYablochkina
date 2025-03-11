@@ -166,32 +166,32 @@
 
     <div class="gallery">
         <!-- Изображение 1 -->
-        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHCP.jpg')">
-            <img src="https://i.yapx.ru/YjHCP.jpg" alt="Цифровое искусство 1">
+        <div class="gallery-item" onclick="openModal('https://yapx.ru/album/YjHR1')">
+            <img src="https://yapx.ru/album/YjHR1" alt="Цифровое искусство 1">
         </div>
         <!-- Изображение 2 -->
-        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHJC.jpg')">
-            <img src="https://i.yapx.ru/YjHJC.jpg" alt="Цифровое искусство 2">
+        <div class="gallery-item" onclick="openModal('https://i.yapx.cc/YjHRi.jpg')">
+            <img src="https://i.yapx.cc/YjHRi.jpg" alt="Цифровое искусство 2">
         </div>
         <!-- Изображение 3 -->
-        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+3')">
-            <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+3" alt="Цифровое искусство 3">
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHSE.jpg')">
+            <img src="https://i.yapx.ru/YjHSE.jpg" alt="Цифровое искусство 3">
         </div>
         <!-- Изображение 4 -->
-        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+4')">
-            <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+4" alt="Цифровое искусство 4">
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHTn.jpg')">
+            <img src="https://i.yapx.ru/YjHTn.jpg" alt="Цифровое искусство 4">
         </div>
         <!-- Изображение 5 -->
-        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+5')">
-            <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+5" alt="Цифровое искусство 5">
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHTv.jpg')">
+            <img src="https://i.yapx.ru/YjHTv.jpg" alt="Цифровое искусство 5">
         </div>
         <!-- Изображение 6 -->
-        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+6')">
-            <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+6" alt="Цифровое искусство 6">
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHUL.jpg')">
+            <img src="https://i.yapx.ru/YjHUL.jpg" alt="Цифровое искусство 6">
         </div>
         <!-- Изображение 7 -->
-        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+7')">
-            <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+7" alt="Цифровое искусство 7">
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHT7.jpg')">
+            <img src="https://i.yapx.ru/YjHT7.jpg" alt="Цифровое искусство 7">
         </div>
     </div>
 
