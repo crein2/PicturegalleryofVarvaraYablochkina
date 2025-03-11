@@ -173,26 +173,32 @@
         <!-- Изображение 2 -->
         <div class="gallery-item" onclick="openModal('https://i.yapx.cc/YjHRi.jpg')">
             <img src="https://i.yapx.cc/YjHRi.jpg" alt="Цифровое искусство 2">
+            <p>Krita</p>
         </div>
         <!-- Изображение 3 -->
         <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHSE.jpg')">
             <img src="https://i.yapx.ru/YjHSE.jpg" alt="Цифровое искусство 3">
+             <p>Procreate</p>
         </div>
         <!-- Изображение 4 -->
         <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHTn.jpg')">
             <img src="https://i.yapx.ru/YjHTn.jpg" alt="Цифровое искусство 4">
+           <p>Adobe Illustrator</p>
         </div>
         <!-- Изображение 5 -->
         <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHTv.jpg')">
             <img src="https://i.yapx.ru/YjHTv.jpg" alt="Цифровое искусство 5">
+             <p>SketchBook</p>
         </div>
         <!-- Изображение 6 -->
         <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHUL.jpg')">
             <img src="https://i.yapx.ru/YjHUL.jpg" alt="Цифровое искусство 6">
+             <p>After Effects</p>
         </div>
         <!-- Изображение 7 -->
         <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHT7.jpg')">
             <img src="https://i.yapx.ru/YjHT7.jpg" alt="Цифровое искусство 7">
+             <p>Ibis paint</p>
         </div>
     </div>
 
