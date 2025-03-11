@@ -31,6 +31,37 @@
             margin-top: 10px;
         }
 
+        .about-art {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-art h2 {
+            text-align: center;
+            color: #2575fc;
+        }
+
+        .about-art p {
+            text-align: justify;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .quote {
+            text-align: center;
+            padding: 40px 20px;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #555;
+            background: #fff;
+            margin: 20px 0;
+            border-left: 5px solid #2575fc;
+        }
+
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -57,17 +88,6 @@
             transform: scale(1.05);
         }
 
-        .quote {
-            text-align: center;
-            padding: 40px 20px;
-            font-style: italic;
-            font-size: 1.2rem;
-            color: #555;
-            background: #fff;
-            margin: 20px 0;
-            border-left: 5px solid #2575fc;
-        }
-
         footer {
             text-align: center;
             padding: 20px;
@@ -92,6 +112,19 @@
         <h1>Картинная галерея</h1>
         <p>"Искусство — это лежащая в основе всего творчество." — Пабло Пикассо</p>
     </header>
+
+    <div class="about-art">
+        <h2>О творчестве и искусстве</h2>
+        <p>
+            Искусство — это способ выражения человеческих чувств, мыслей и эмоций через различные формы творчества. Оно существует столько же, сколько существует само человечество. От наскальных рисунков до современных цифровых произведений искусства — каждый этап развития общества отражается в творческих работах.
+        </p>
+        <p>
+            Искусство играет важную роль в нашей жизни. Оно помогает нам понять мир вокруг нас, задуматься о сложных вопросах и найти красоту даже в самых простых вещах. Картины, скульптуры, музыка и литература — все это части одного целого, которое делает нашу жизнь богаче и глубже.
+        </p>
+        <p>
+            Творчество не ограничивается только профессиональными художниками. Каждый человек может быть творцом в своей области. Главное — это желание создавать что-то новое и уникальное. Как сказал Ральф Уолдо Эмерсон: "Каждый художник был сначала любителем."
+        </p>
+    </div>
 
     <div class="quote">
         "Каждый художник был сначала любителем." — Ральф Уолдо Эмерсон
