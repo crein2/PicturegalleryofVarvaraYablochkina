@@ -199,6 +199,10 @@
         <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHT7.jpg')">
             <img src="https://i.yapx.ru/YjHT7.jpg" alt="Цифровое искусство 7">
              <p>Ibis paint</p>
+        <!-- Изображение 6 -->
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHUL.jpg')">
+            <img src="https://i.yapx.ru/YjHUL.jpg" alt="Цифровое искусство 6">
+             <p>After Effects</p>
          </div>
     </div>
     <div class="quote">
