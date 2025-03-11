@@ -164,8 +164,8 @@
 
     <div class="gallery">
         <!-- Изображение 1 -->
-        <div class="gallery-item" onclick="openModal('https://avatars.mds.yandex.net/i?id=a09f0cfe840e7961c73f506b850b7d6b_l-5233156-images-thumbs&n=13')">
-            <img src="https://avatars.mds.yandex.net/i?id=a09f0cfe840e7961c73f506b850b7d6b_l-5233156-images-thumbs&n=13" alt="Цифровое искусство 1">
+        <div class="gallery-item" onclick="openModal('https://postimg.cc/jCn2MD2k')">
+            <img src="https://postimg.cc/jCn2MD2k" alt="Цифровое искусство 1">
         </div>
         <!-- Изображение 2 -->
         <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+2')">
