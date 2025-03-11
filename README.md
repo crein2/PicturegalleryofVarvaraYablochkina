@@ -37,7 +37,7 @@
             padding: 20px;
             background: rgba(255, 255, 255, 0.1);
             border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
         }
 
         .about-art h2 {
@@ -75,6 +75,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
             transition: transform 0.3s ease;
+            cursor: pointer;
         }
 
         .gallery-item img {
@@ -86,6 +87,34 @@
 
         .gallery-item:hover {
             transform: scale(1.05);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 2rem;
+            color: white;
+            cursor: pointer;
         }
 
         footer {
@@ -111,7 +140,9 @@
     <header>
         <h1>Картинная галерея</h1>
         <p>"Искусство — это лежащая в основе всего творчество." — Пабло Пикассо</p>
-=<div class="about-art">
+    </header>
+
+    <div class="about-art">
         <h2>О цифровом искусстве и информационной эстетике</h2>
         <p>
             Информационное искусство — это направление современного искусства, которое использует технологии, данные и цифровые инструменты для создания произведений. Оно возникло на стыке искусства, науки и технологий и стало отражением эпохи, в которой мы живем.
@@ -128,46 +159,66 @@
     </div>
 
     <div class="quote">
-        «Искусство есть микроскоп, который художник наводит на тайны души, чтобы показать эти общие для всех тайны людям» — Лев Толстой
+        "Каждый художник был сначала любителем." — Ральф Уолдо Эмерсон
     </div>
 
     <div class="gallery">
         <!-- Изображение 1 -->
-        <div class="gallery-item">
+        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+1')">
             <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+1" alt="Цифровое искусство 1">
         </div>
         <!-- Изображение 2 -->
-        <div class="gallery-item">
+        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+2')">
             <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+2" alt="Цифровое искусство 2">
         </div>
         <!-- Изображение 3 -->
-        <div class="gallery-item">
+        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+3')">
             <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+3" alt="Цифровое искусство 3">
         </div>
         <!-- Изображение 4 -->
-        <div class="gallery-item">
+        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+4')">
             <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+4" alt="Цифровое искусство 4">
         </div>
         <!-- Изображение 5 -->
-        <div class="gallery-item">
+        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+5')">
             <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+5" alt="Цифровое искусство 5">
         </div>
         <!-- Изображение 6 -->
-        <div class="gallery-item">
+        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+6')">
             <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+6" alt="Цифровое искусство 6">
         </div>
         <!-- Изображение 7 -->
-        <div class="gallery-item">
+        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+7')">
             <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+7" alt="Цифровое искусство 7">
         </div>
     </div>
 
     <div class="quote">
-        «Искусство — выражение самых глубоких мыслей самым простым способом» — Альберт Эйнштейн.
+        "Искусство — это не то, что вы видите, а то, что вы заставляете других увидеть." — Эдгар Дега
     </div>
 
     <footer>
         &copy; 2025 Картинная галерея. Все права защищены.
     </footer>
+
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" src="" alt="Увеличенное изображение">
+    </div>
+
+    <script>
+        function openModal(imageSrc) {
+            const modal = document.getElementById('modal');
+            const modalImage = document.getElementById('modalImage');
+            modal.style.display = 'flex';
+            modalImage.src = imageSrc;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'none';
+        }
+    </script>
 </body>
 </html>
