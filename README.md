@@ -170,8 +170,8 @@
             <img src="https://i.yapx.ru/YjHCP.jpg" alt="Цифровое искусство 1">
         </div>
         <!-- Изображение 2 -->
-        <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+2')">
-            <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+2" alt="Цифровое искусство 2">
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHJC.jpg')">
+            <img src="https://i.yapx.ru/YjHJC.jpg" alt="Цифровое искусство 2">
         </div>
         <!-- Изображение 3 -->
         <div class="gallery-item" onclick="openModal('https://via.placeholder.com/1200x800?text=Цифровое+искусство+3')">
