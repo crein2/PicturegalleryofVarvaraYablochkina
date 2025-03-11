@@ -131,7 +131,7 @@
  <div class="gallery">
         <!-- Изображение 1 -->
         <div class="gallery-item">
-            <img src="https://via.placeholder.com/400x300?text=Цифровое+искусство+1" alt="Цифровое искусство 1">
+            <img src="https://nypost.com/wp-content/uploads/sites/2/2019/08/30.1f.musk_.web_.jpg?quality=75&amp;strip=all&amp;w=1024" alt="Цифровое искусство 1">
         </div>
         <!-- Изображение 2 -->
         <div class="gallery-item">
