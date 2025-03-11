@@ -200,11 +200,11 @@
             <img src="https://i.yapx.ru/YjHT7.jpg" alt="Цифровое искусство 7">
              <p>Ibis paint</p>
         </div>
-        <!-- Изображение 6 -->
-        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHUL.jpg')">
-            <img src="https://i.yapx.ru/YjHUL.jpg" alt="Цифровое искусство 6">
-             <p>After Effects</p>
-         </div>
+        <!-- Изображение 8 -->
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjH1P.jpg')">
+            <img src="https://i.yapx.ru/YjH1P.jpg" alt="Цифровое искусство 8">
+             <p>Sai Paint Tool</p>
+        </div>
     </div>
     <div class="quote">
         «Словом один человек передаёт другому свои мысли, искусством же люди передают друг другу свои чувства» —  Лев Толстой
