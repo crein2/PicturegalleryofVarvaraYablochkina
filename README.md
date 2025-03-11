@@ -16,7 +16,7 @@
         header {
             text-align: center;
             padding: 40px 20px;
-            background-image: url('https://i.imgur.com/xyz1234.jpg'); /* Замените ссылку на свою */
+            background-image: url('https://i.yapx.ru/YjHHe.jpg'); /* Замените ссылку на свою */
             background-size: cover;
             background-position: center;
             color: white;
