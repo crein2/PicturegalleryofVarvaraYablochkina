@@ -166,8 +166,8 @@
 
     <div class="gallery">
         <!-- Изображение 1 -->
-        <div class="gallery-item" onclick="openModal('https://yapx.ru/album/YjHR1')">
-            <img src="https://yapx.ru/album/YjHR1" alt="Цифровое искусство 1">
+        <div class="gallery-item" onclick="openModal('https://i.yapx.ru/YjHZ5.jpg')">
+            <img src="https://i.yapx.ru/YjHZ5.jpg" alt="Цифровое искусство 1">
         </div>
         <!-- Изображение 2 -->
         <div class="gallery-item" onclick="openModal('https://i.yapx.cc/YjHRi.jpg')">
